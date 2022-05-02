@@ -19,13 +19,13 @@ body {
   flex-direction: column;
   background: hsl(0, 0%, 100%);
   border-radius: 15px;
-  padding-bottom: 20px;
   position: absolute;
   width: 350px;
-  height: 69vh;
+  height: 68vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 10px;
 }
 
 img {
@@ -33,21 +33,21 @@ img {
   border-radius: 10px;
   margin: 0 10px;
 }
-.content h2 {
+.content h1 {
   font-family: "Outfit", sans-serif;
-  margin: 20px;
-  padding: 0 15px;
+  margin: 13px;
+  padding-top: 10px;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 .content p {
   font-family: "Outfit", sans-serif;
-  margin: 0px 20px;
-  padding: 0 15px;
+  margin: 0px 25px;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+  padding-bottom: 10px;
 }
